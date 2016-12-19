@@ -1,7 +1,6 @@
 language: bash
 
-# before_script:
-script:
+before_script:
     - curl -o- https://raw.githubusercontent.com/tomeshnet/prototype-cjdns-pi2/master/scripts/install | bash
 
 # script:
